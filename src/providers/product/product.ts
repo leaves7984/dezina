@@ -17,8 +17,8 @@ export class ProductProvider {
     console.log('Hello ProductProvider Provider');
   }
 
-  getProducts():Observable<Detail[]>{
-    return this.http.get<Detail[]>('/assets/data.json');
+  getProducts(){
+    return this.http.get<Detail>('/assets/data.json');
 
   }
 
