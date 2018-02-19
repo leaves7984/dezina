@@ -12,7 +12,7 @@ import {ProductDetailPage} from "../product-detail/product-detail";
   templateUrl: 'home.html'
 })
 export class HomePage {
-  allProducts: Detail;
+  allProducts: Detail[];
 
   constructor( private provider: ProductProvider,private http: HttpClient, public navCtrl: NavController) {
 

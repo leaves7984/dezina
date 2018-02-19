@@ -18,7 +18,7 @@ export class ProductProvider {
   }
 
   getProducts(){
-    return this.http.get<Detail>('/assets/data.json');
+    return this.http.get<Detail[]>('/assets/data.json');
 
   }
 

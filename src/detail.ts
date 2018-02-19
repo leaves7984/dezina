@@ -5,5 +5,6 @@ export class Detail {
   price: number;
   image: string;
   gender: string;
+  bestSeller: boolean;
 
 }
